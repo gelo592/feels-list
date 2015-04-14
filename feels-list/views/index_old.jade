@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1 Feels Playlist Generator
+  div
+    a(class="site-butt") Grab Tracks
+    a(class="site-butt") Make Playlist
+    input(type="search")
+  div(class="song-list")
+    each item in items
+      div(class="song-list-item")
+        a(class="tag-butt") Add Tag
+        span(class="song") #{item.title} - #{item.artist}
+  a(class="site-butt" href="/more") Load More
+

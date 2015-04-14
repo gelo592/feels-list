@@ -1,0 +1,14 @@
+{
+  "name": "feels-list",
+  "version": "0.0.0",
+  "description": "hai",
+  "main": "index.js",
+  "scripts": {
+    "test": "bloop"
+  },
+  "author": "g.e. link",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "~4.10.4"
+  }
+}

@@ -1,0 +1,44 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+a {
+  border: 2px solid #44e;
+  padding: 16px 4px;
+  background: #acacff;
+  color: #1d1d7a;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+.header {
+  text-align: center;
+}
+
+.song-list-item {
+}
+
+.song {
+  display: inline-block;
+  width: 600px;
+  border: 1px solid #acacff;
+  padding: 16px 10px 16px 10px;
+}
+
+.site-butt {
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.tag-butt {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.big-butt {
+  font-size: 24px;
+}
